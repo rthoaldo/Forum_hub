@@ -11,8 +11,6 @@ public class UserDetailsImpl implements UserDetails {
     private String username;
     private String password;
 
-    // Adicione outros campos conforme necessário
-
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
         return new ArrayList<>();

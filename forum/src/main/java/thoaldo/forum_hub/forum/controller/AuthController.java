@@ -1,5 +1,6 @@
 package thoaldo.forum_hub.forum.controller;
 
+import org.springframework.context.annotation.Bean;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.*;
@@ -8,6 +9,7 @@ import thoaldo.forum_hub.forum.repository.UsuarioRepository;
 import thoaldo.forum_hub.forum.security.JwtUtil;
 
 import java.util.Optional;
+
 
 @RestController
 @RequestMapping("/api")
